@@ -1,0 +1,123 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+.nav a {
+    text-decoration: none;
+    color: darkgray;
+}
+
+.nav a:hover{
+    color: black;
+}
+
+body{
+    padding 0px;
+    background-color: white;
+}
+
+.nav .list{
+    text-align: center;
+}
+
+.nav li {
+    display: inline;
+    color: darkgray;
+    font-family: Verdana;
+    text-transform: lowercase;
+    font-size: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
+    position: relative;
+    top: 25px;
+    text-decoration-color: darkgray;
+    
+}
+
+.jumbotron {
+    background-image: url("http://www.lifefoc.com/photos/server3/golden_gate_bridge_in_millbrae.jpg");
+    height: 700px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+}
+
+.jumbotron .top{
+    position: relative;
+    top: 200px;
+    padding: 0;
+}
+
+.jumbotron h1{
+    font-family: Verdana;
+    text-align: center;
+    color: black;
+    font-size: 70px;
+}
+
+.jumbotron p{
+    font-family: Verdana;
+    text-align: center;
+    color: black;
+    font-size: 30px;
+}
+
+h2 {
+    font-family: Verdana;
+    text-align: center;
+    color: black;
+    font-size: 50px;
+}
+
+p{
+    font-family: Verdana;
+    font-size: 15px;
+}
+
+.container{
+    width: auto;
+    margin: 50px;
+    object-position: center;
+}
+
+
+
+.prod .tab{
+    table-layout: fixed;
+    width: 100%;
+}
+
+.prod .tab td{
+    padding: 100px;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 40px;
+} 
+
+.contact ul{
+    text-align: center;
+    list-style-type: none;
+}
+
+.contact li{
+    font-family: Verdana;
+}
+
+.map_cont{
+    padding: 275px;
+    padding-top: 20px;
+}
+
